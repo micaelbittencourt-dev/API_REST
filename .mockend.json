@@ -3,7 +3,7 @@
     "title": { "string": {} },
     "views": { "int": { "min": 0, "max": 100 } },
     "published": { "boolean": {} },
-    "createdAt": { "dateTime": { "max": "2020-12-31T10:10:10Z" } },
+    "createdAt": { "dateTime": { "max": "2020-12-31T10:10:10Z", "min": "2019-12-31T10:10:10Z" } },
     "comments": { "hasMany": "Comment" }
   },
   "Comment": {
