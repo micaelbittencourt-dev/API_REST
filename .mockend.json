@@ -1,5 +1,11 @@
 {
   "Post": {
+    "id": {
+      "int": [
+        1,
+        2
+      ]
+    },
     "name": {
       "string": [
         "Thor",
